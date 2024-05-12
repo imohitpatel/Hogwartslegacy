@@ -1,2 +1,2 @@
 # Hogwartslegacy
-<img  width="auto" src="assets/preview.jpg">
+<img  width="auto" src="assets/ist.jpg">
