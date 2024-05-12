@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-color: black;
+}
+.navbar{
+  height: 50px;
+  background-image: url(/assets/mobile-nav-bg.jpg);
+  background-size: cover;
+  border-bottom: 2px solid #211509;
+  /*border-style: solid;*/
+}
+.navbar li{
+  float: left;
+  list-style: none; /* for removing list • dot */
+  padding: 15px 20px;
+}
+.navbar li a{
+  text-decoration: none;
+  padding: 2px 10px;/*top left bottom right*/
+  color: wheat;
+}
+.navbar li a:hover{
+  color: darkgoldenrod;
+}
+.logo{
+  margin: auto 10px;
+  float: left;
+  height: 40px ;
+}
+.right{
+  float: right;
+}
+.btn{
+  margin: 15px 50px; /*top left*/
+  padding: 5px 10px;
+  float: right;
+  color: wheat;
+  background: url(/assets/gold-button-bg.jpg);
+  background-size: cover;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+button:hover{
+}
+.hamburger{
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+.hamburger .bar, .hamburger:after, .hamburger:before {
+  content: '';
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: goldenrod;
+  margin: 7px 0px;
+  transition: 0.4s;
+}
+video.hero_background{
+  float: center;
+  width: 100%;
+  background-size: cover;
+}
+/*.hero_content{
+  color: wheat;
+  margin:0px;
+  background-image:url(/assets/bg-bottom.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}*/
+.main{
+  padding: 100px 50px 10px 50px;
+}
+.heading_image img{
+  padding:20px;
+  width: 75%;
+}
+.heading_display{
+  text-align: center;
+}
+.hero_cards{ 
+  display: block;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  height: auto;/*
+  margin-top: 50px;
+  padding: 50px 120px 150px 120px;*/
+  background-image: url(/assets/game-info-panel-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  
+}
+⇝/*.hero_cards img{
+  position: relative;
+}*/
+.heading_display1{
+  text-align: center;
+  font-size: 25px;
+}
+.fanclub a{
+  text-decoration: none;
+  color: darkgoldenrod;
+  font-size: 15px;
+  padding: 10px 100px 50px 100px;
+}
+img.bottom_display{
+  display: block;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  height: auto;
+  /*margin-top: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;*/
+}
+img.bottom_display1{
+  display: block;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  height :auto;
+  /*
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;*/
+}
+footer{
+  box-shadow: 0px 0px 500px #000000;
+  position: relative;
+  background-color: black;
+  height:400px;
+}
+.corner-left img{
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  top: 52px;
+}
+.corner-right img{
+  height: 200px;
+  position: absolute;
+  right: 0px;
+  top: 52px;
+}
+.coner-bar-left img{
+  height: 10px;
+  width:50%;
+  position: absolute;
+  left: 0px;
+  top: 52px;
+}
+.coner-bar-right img{
+  height: 10px;
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  top: 52px;
+}
+
+.corner-bottom-left img{
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  bottom: 2px;
+}
+.corner-bottom-right img {
+  height: 200px;
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+}
+
+/*.main{
+ /* filter: drop-shadow(5px 5px 200px #420202);
+  background:url(/assets/bg-bottom.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}*/
+.main{
+  box-shadow:inset 0px 150px 100px -100px black, inset 0px -100px 150px 0px black;
+  background:url(/assets/bg-bottom-m.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+h3{
+  color: wheat;
+  font-family: "Cinzel", serif;
+}
+h2{font-family: "Cinzel", serif;
+  text-align: center;
+  font-size: 40px;
+  color: wheat;
+}
+.copyright{
+  color: white;
+}
+.text{
+  color: lemonchiffon;
+  align-content: center;
+  font-size: 15px;
+ /* margin-left: 180px;
+  margin-right: 180px;*/
+}
+p{
+  padding: 10px;
+  text-align: center;
+}
+.herotext{
+  font-size: 13.7px;
+  color: lemonchiffon;
+  align-content: center;
+}
+.center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+.last{
+padding-bottom: 200px;
+}
+.footertext{
+  color: #FFEBEB;
+  margin-left: 0;
+  font-size: 10px;
+  padding: 100px 1px 0px 20px;
+  text-align: left;
+}
+video{
+  
+}
